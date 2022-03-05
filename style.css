@@ -1,6 +1,6 @@
 body {
-    /* background-image: url(images/pexels-eberhard-grossgasteiger-2310713.jpg); */
-    background-color: #fec3df;
+    /*background-color: #fec3df;*/
+    background-color: #ffffff;
     margin: 0;
 }
 
@@ -16,7 +16,7 @@ h2{
     font-family: 'Open Sans', monospace;
     text-align: left;
     font-weight: bold;
-    color: #ffffff;
+    color: #a0f3ed;
 }
 
 p {
@@ -46,7 +46,7 @@ section{
 
 hr {
 	border: 0;
-	border-top: 2px solid rgb(71, 71, 71);
+	border-top: 1px solid rgb(253, 199, 241);
 }
 
 .d-flex {
