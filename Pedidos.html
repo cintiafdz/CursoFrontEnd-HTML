@@ -1,0 +1,312 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Pide tu Pastel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container nav-bar justify-content-end">
+        <div class= "row d-flex">
+          <nav class= "social-media">
+              <ul class="mb-0 d-flex mr-auto">
+                  <button class="btn btn-custom btn-danger" type="submit" onclick="alert('Inicia Sesión')"><b>INICIA SESIÓN</b></button>&nbsp;&nbsp;
+                  <button class="btn btn-custom btn-light" type="submit" onclick="alert('Regístrate')"><b>REGÍSTRATE</b></button>
+              </ul>
+          </nav>
+        </div>
+    </div><hr>
+
+    <div class="container menu justify-content-end">
+        <div class="row d-flex">
+            <nav class= "menu-nav">
+                <ul class="mb-0 mr-auto" font: #72f0ec>
+                    <li class="current"><a href="index.html">Inicio</a></li>
+                    <li><a href="Pedidos.html">Pide tu pastel</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Pasteles de Boda</a></li>
+                    <li><a href="#">Pasteles de XV años</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div><hr>
+
+    <section class="hero">
+      <a href=""></a>
+      <div class="item active">
+        <img src="images/Banner_Sup.png" alt="Donas y repostería" style="width:100%;">
+        <div class="carousel-caption">
+          <img src="images/Logo_Pasteleria.png" alt="Logo pasteleria kiki" width="300" height="300">
+          <h1>Pastelería Kiki</h1>
+          <h3>¡Los pasteles más pochochos y pechochos de Monterrey!</h3>
+        </div>
+      </div>
+    </section>
+
+    <div class="espacio text-center">
+      <p style="font-size:xx-large; font-family:fantasy; font-weight: bold; color:#72f0ec">¿Cómo vas a querer tu pastel?</p>
+    </div>
+      
+      <div class="container espacio"> 
+        <form>
+        <div class="form-group row">
+            <input type="nombre" class="form-control" id="inputNombre3" placeholder="Ingresa tu nombre completo">
+        </div>
+        <div class="form-group row">
+            <input type="correo" class="form-control" id="inputCorreo3" placeholder="Ingresa tu correo electrónico">
+        </div><br>
+        <div class="text-center">
+          <p>Selecciona la fecha de entrega de tu pastel.</p>
+          <label for="start">Fecha:</label>
+              <input type="date" id="start" name="trip-start"
+              value="2022-07-22"
+              min="2022-03-05" max="2023-12-31">
+        </div>
+        <br><p>Selecciona el sabor del pan para tu pastel.</p>
+        <fieldset class="form-group">
+            <div class="row">
+            <div class="col">
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                    Chocolate
+                </label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                    Vainilla
+                </label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                    Naranja
+                </label>
+                </div>
+            </div>
+            </div>
+        <br><p>Selecciona otro sabor si quieres que tenga dos sabores diferentes tu pastel.</p>
+        </fieldset>
+        <fieldset class="form-group">
+          <div class="row">
+          <div class="col">
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios0" id="gridRadios4" value="option4" checked>
+              <label class="form-check-label" for="gridRadios4">
+                  Chocolate
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios0" id="gridRadios5" value="option5">
+              <label class="form-check-label" for="gridRadios5">
+                  Vainilla
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios0" id="gridRadios6" value="option6">
+              <label class="form-check-label" for="gridRadios6">
+                  Naranja
+              </label>
+              </div>
+          </div>
+          </div>
+        <br><p>Selecciona el sabor del relleno que deseas que tenga tu pastel.</p>
+        </fieldset>
+        <fieldset class="form-group">
+          <div class="row">
+          <div class="col">
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios7" value="option7" checked>
+              <label class="form-check-label" for="gridRadios7">
+                  Fresa
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios8" value="option8">
+              <label class="form-check-label" for="gridRadios8">
+                  Chabacano
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios9" value="option9">
+              <label class="form-check-label" for="gridRadios9">
+                  Zarzamora
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios10" value="option10">
+              <label class="form-check-label" for="gridRadios10">
+                  Piña
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios11" value="option11">
+              <label class="form-check-label" for="gridRadios11">
+                  Chocolate
+              </label>
+              </div>
+            </div>
+            </div>
+        </fieldset>
+        <br><p>Selecciona otro sabor si quieres que tenga dos rellenos tu pastel.</p>
+        <fieldset class="form-group">
+          <div class="row">
+          <div class="col">
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios7" value="option7" checked>
+              <label class="form-check-label" for="gridRadios7">
+                  Fresa
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios8" value="option8">
+              <label class="form-check-label" for="gridRadios8">
+                  Chabacano
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios9" value="option9">
+              <label class="form-check-label" for="gridRadios9">
+                  Zarzamora
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios10" value="option10">
+              <label class="form-check-label" for="gridRadios10">
+                  Piña
+              </label>
+              </div>
+              <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios00" id="gridRadios11" value="option11">
+              <label class="form-check-label" for="gridRadios11">
+                  Chocolate
+              </label>
+              </div>
+            </div>
+            </div>
+        </fieldset>
+
+        <br><p>¿Deseas añadir algo más a tu pedido?</p>
+
+        <div class="form-group row">
+            <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                Velas de cumpleaños 
+                </label>
+            </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                Vela Bengala
+                </label>
+          </div>
+          </div>
+        </div>
+        <div class="form-group row">
+            <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                Globo festivo
+                </label>
+            </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                Tarjeta de felicitación
+                </label>
+            </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+          <span class="dot_present"></span>&nbsp;&nbsp;&nbsp;
+          <span class="dot"></span><br><br>
+          <button type="submit" class="btn btn-primary">Siguiente</button> 
+        </div>
+      </form>
+      </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-content container">
+          <div class="col-4 footer-section about justify-content-center">
+            <p style="font-family: 'Open Sans'; font-size: 14px;"> <img class="icon text-center" src="images/location_white.png" alt="Location">&nbsp;&nbsp; <b>Ubicación:</b> 350 Suave Rebanada<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Col. Valle del Sabor<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monterrey, Nuevo León, México<br>
+            </p><br>
+
+            <p style="font-family: 'Open Sans'; font-size: 14px;"><img class="icon text-center" src="images/clock_white.png" alt="Clock">&nbsp;&nbsp; <b>Horario:</b> Lunes a Domingo 8AM - 7PM
+            </p><br>
+            
+            <p style="font-family: 'Open Sans'; font-size: 14px;"><img class="icon text-center" src="images/call_white.png" alt="Call">&nbsp;&nbsp; <b>Teléfono:</b> 81 8404 0030
+            </p><br>
+            
+            <p style="font-family: 'Open Sans'; font-size: 14px;"><img class="icon text-center" src="images/email_white.png" alt="Email">&nbsp;&nbsp; <b>E-mail:</b> info_kiki@pasteleriakiki.com
+            </p>
+          </div>
+          <div class="col-3 footer-custom links">
+            <p style="font-family: 'Open Sans'; font-size: 16px; font-weight: bold;">
+              RECORRIDO RÁPIDO
+            </p>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Pide tu pastel</a></li>
+            <li><a href="#">Accesorios</a></li>
+            <li><a href="#">Pasteles de Bodas</a></li>
+            <li><a href="#">Pasteles de XV años</a></li>
+          </div>
+          <div class="col-5 footer-suscribe">
+            <p style="font-family: 'Open Sans'; font-size: 16px; font-weight: bold;">Buzón de Sugerencias
+            </p>
+            <div class="newsletter text-center">
+              <div class="newsletter-name-address">
+                <input type="text" placeholder="Nombre" name="nombre" required>
+                <input type="text" placeholder="Correo electrónico" name="E-mail" required>
+              </div>
+              <br>
+              <div class="newsletter-message">
+                <input type="text" placeholder="Mensaje" name="Mensaje">
+              </div>
+            </div><br>
+          <button class="btn btn-custom btn-danger" type="submit" onclick="alert('Enviado')"><b>ENVIAR</b></button>
+          </div>
+          </div>
+        <div class="footer-bottom">
+            <div class="footer-icons">
+              <img class="icon align-items-center justify-content-center" src="images/facebook_round_white.png" alt="Facebook">&nbsp;
+              <img class="icon align-items-center justify-content-center" src="images/twitter_round_white.png" alt="Twitter">&nbsp;
+              <img class="icon align-items-center justify-content-center" src="images/instagram_round_white.png" alt="Instagram">&nbsp;
+              <img class="icon align-items-center justify-content-center" src="images/tiktok_round_white.png" alt="TikTok">&nbsp;
+              <img class="icon align-items-center justify-content-center" src="images/visa_icon.png" alt="Visa">&nbsp;
+              <img class="icon align-items-center justify-content-center" src="images/paypal_icon.png" alt="Paypal">&nbsp;
+            </div>
+        <br>
+        <p>
+          Copyright Pastelería Kiki &copy;2022. Todos los derechos reservados.
+        </p> 
+      </div>
+    </div>
+</body>
+</html>
