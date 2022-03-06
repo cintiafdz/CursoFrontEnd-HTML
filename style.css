@@ -40,9 +40,9 @@ section{
     place-content: space-between;
 }
 
-/*.btn.btn-custom {
+.btn.btn-custom {
     border-radius: 20px;
-}*/
+}
 
 hr {
 	border: 0;
@@ -300,3 +300,26 @@ input::placeholder {
     max-width: 100%;
     height:auto;
 }
+
+.espacio{
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(226, 221, 221);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot_present {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(143, 138, 138);
+    border-radius: 50%;
+    display: inline-block;
+  }
