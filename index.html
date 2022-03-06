@@ -11,9 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Pasteleria Kiki</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_buttons.scss">
 </head>
 <body>
     <div class="container nav-bar justify-content-end">
@@ -56,29 +57,73 @@
     <section>
         <h2><span>Pasteles</span> Temáticos</h2><br>
         <div class="container">
-            <img src="images/pexels-delphine-hourlay-691147.jpg" class="responsive" alt="Pastel" width="300">
+          <div class="text-center">
+            <img src="images/cake_figure_kitty.jpg" class="responsive" alt="Imagen de Pastel decorado de Hello Kitty" width="400">
+            <br><p>Pastel de Hello Kitty</p><br>
+            <p>$200.00</p>
+          </div>
+          <div class="text-center">
+            <img src="images/cake_figure_HarryPotter.jpg" class="responsive" alt="Imagen de Pastel decorado de Harry Potter" width="400">
+            <br><p>Pastel de Harry Potter</p><br>
+            <p>$200.00</p>
+          </div>
+          <div class="text-center">
+            <img src="images/cake_figure_pooh.jpg" class="responsive" alt="Imagen de Pastel decorado del oso Pooh" width="400">
+            <br><p>Pastel de Pooh</p><br>
+            <p>$200.00</p>
+          </div>
         </div>
-        <p>¡Ha llegado a nuestra pastelería el postre de tus series y películas favoritas!</p><br>
+        <!-- <p>¡Ha llegado a nuestra pastelería el postre de tus series y películas favoritas!</p><br> -->
         <h2><span>Rebanaditas</span> de Pastel</h2><br>
-        <div class="container">       
-            <img src="images/pexels-photo-291528.jpeg" class="responsive" alt="Pastel" width="200" >
-            <img src="images/pexels-eric-montanah-1414234.jpg" class="responsive" alt="Pastel" width="200" >
-            <img src="images/pexels-karolina-grabowska-4040701.jpg" class="responsive" alt="Pastel" width="200" >
+        <div class="container">   
+          <div class="text-center">
+            <img src="images/cake_piece_pie.jpg" class="responsive" alt="Imagen de Rebanada de pay de queso y zarzamora" width="400" >
+            <br><p>Rebanada de pay de queso y zarzamora</p><br>
+            <p>$35.00</p>
+          </div>  
+          <div class="text-center">
+            <img src="images/cake_piece_chocolate.jpg" class="responsive" alt="Imagen de Rebanada de pastel de chocolate y flan" width="400" >
+            <br><p>Rebanada de pastel de chocolate y flan</p><br>
+            <p>$35.00</p>
+          </div>  
+          <div class="text-center">
+            <img src="images/cake_piece_strawberry.jpg" class="responsive" alt="Imagen de Rebanada de flan de fresa" width="400" >
+            <br><p>Rebanada de flan de fresa</p><br>
+            <p>$35.00</p>
+          </div>  
         </div>
-        <p>Si se te antojan todos los pastelitos... ¡Compra rebanaditas!</p><br>
+        <!-- <p>Si se te antojan todos los pastelitos... ¡Compra rebanaditas!</p><br> -->
         <h2><span>Pasteles</span> Decorados</h2><br>
         <div class="container">
-            <img src="images/pexels-delphine-hourlay-691147.jpg" class="responsive" alt="Pastel" width="200">
-            <img src="images/pexels-jasmine-lew-140831.jpg" class="responsive" alt="Pastel" width="400">
-            <img src="images/pexels-dmitry-zvolskiy-1721934.jpg" class="responsive" alt="Pastel" width="200">
+          <div class="text-center">
+            <img src="images/cake_normal_tres pisos.jpg" class="responsive" alt="Imagen de Pastel de tres pisos con crema batida" width="400">
+            <br><p>Pastel de tres pisos con crema batida</p><br>
+            <p>$250.00</p>
+          </div> 
+          <div class="text-center">
+            <img src="images/cake_normal_tres leches.jpg" class="responsive" alt="Imagen de Pastel de tres leches" width="400">
+            <br><p>Pastel de tres leches</p><br>
+            <p>$250.00</p>
+          </div>  
+          <div class="text-center">
+            <img src="images/cake_normal_chocolate.jpg" class="responsive" alt="Imagen de Pastel de chocolate" width="400">
+            <br><p>Pastel de chocolate</p><br>
+            <p>$250.00</p>
+          </div>  
         </div>
-        <p>Los pasteles clásicos están por aquí, riquísimos como siempre.</p><br>
-        <h2><span>Pasteles</span> Helados</h2><br>
+        <!-- <p>Los pasteles clásicos están por aquí, riquísimos como siempre.</p><br> -->
+        <!-- <h2><span>Pasteles</span> Helados</h2><br>
         <div class="container">
             <img src="images/pexels-delphine-hourlay-691147.jpg" class="responsive" alt="Pastel" width="300">
-        </div>  
-        <p>¡Qué calor! Ya hace falta un pastel helado en casa... ¡Ven por el tuyo ya!</p><br>      
+        </div>   -->
+        <!-- <p>¡Qué calor! Ya hace falta un pastel helado en casa... ¡Ven por el tuyo ya!</p><br>       -->
     </section>
+
+    <!-- <div class="container_buttons2">
+      <a class="btn_buttons2">Click me baby yeah</a>
+      <a class="btn_buttons2 cta_buttons2">So Click-a-licious</a>
+      <a class="btn_buttons2 cta_buttons2 bg_buttons2">Ain't no click-nic</a>
+    </div> -->
     
     
 
