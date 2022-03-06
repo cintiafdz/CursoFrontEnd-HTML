@@ -40,9 +40,9 @@ section{
     place-content: space-between;
 }
 
-.btn.btn-custom {
+/*.btn.btn-custom {
     border-radius: 20px;
-}
+}*/
 
 hr {
 	border: 0;
